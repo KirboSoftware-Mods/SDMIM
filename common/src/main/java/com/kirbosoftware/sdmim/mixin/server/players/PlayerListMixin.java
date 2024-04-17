@@ -8,9 +8,8 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(PlayerList.class)
 public class PlayerListMixin {
-
     @Redirect(method = "placeNewPlayer", at = @At(value = "INVOKE", target = "Lnet/minecraft/network/Connection;getLoggableAddress(Z)Ljava/lang/String;"))
-    private String sddm$placeNewPlayer(Connection instance, boolean $$0) {
+    private String sdmim$placeNewPlayer(Connection instance, boolean $$0) {
         return "***.***.***.***:*****";
     }
 }

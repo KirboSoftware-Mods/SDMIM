@@ -9,7 +9,8 @@
     ],
     "contact": {
         "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "sources": "https://github.com/KirboSoftware-Mods/SDMIM",
+        "issues": "https://github.com/KirboSoftware-Mods/SDMIM/issues"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
