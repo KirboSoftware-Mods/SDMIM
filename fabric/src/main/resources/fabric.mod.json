@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-          "com.kirbosoftware.sdmim.ExampleMod"
+          "com.kirbosoftware.sdmim.Sdmim"
         ]
     },
     "mixins": [
