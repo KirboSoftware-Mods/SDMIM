@@ -10,7 +10,7 @@ base {
 mixin {
     add(sourceSets.main, "${mod_id}.refmap.json")
 
-    config("${mod_id}.mixins.json")
+//    config("${mod_id}.mixins.json")
     config("${mod_id}.forge.mixins.json")
 }
 
@@ -109,10 +109,4 @@ publishing {
             url "file://" + System.getenv("local_maven")
         }
     }
-}
-
-sourceSets.each {
-    def dir = layout.buildDirectory.dir("sourcesSets/$it.name")
-    it.output.resourcesDir = dir
-    it.java.destinationDirectory = dir
 }
