@@ -1,4 +1,6 @@
 # Stop Doxxing My Ip Minecraft
+<a href="https://www.curseforge.com/minecraft/mc-mods/sdmim"><img alt="curseforge" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg"></a>
+<a href="https://modrinth.com/mod/sdmim"><img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"></a>
 
 Just a simple server side mod that adds a mixin to hide your IP when joining a server with this mod installed. 
 
