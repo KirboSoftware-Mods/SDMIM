@@ -14,7 +14,7 @@
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
-    "environment": "*",
+    "environment": "server",
     "entrypoints": {
         "main": [
           "com.kirbosoftware.sdmim.Sdmim"
